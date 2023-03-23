@@ -1,0 +1,26 @@
+{
+  "name": "arbitrum-airdrop-claimer",
+  "version": "1.0.0",
+  "description": "Arbitrum Airdrop Claimer",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node ./build/index.js"
+  },
+  "keywords": [],
+  "author": "ndatg",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.5",
+    "@typescript-eslint/eslint-plugin": "^5.56.0",
+    "eslint": "8.22.0",
+    "eslint-config-standard-with-typescript": "^34.0.1",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "typescript": "^5.0.2"
+  }
+}
